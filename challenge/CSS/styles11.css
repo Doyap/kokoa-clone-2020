@@ -1,0 +1,302 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+}
+
+input:focus {
+  outline: none;
+}
+
+.nav {
+  padding-top: 30px;
+  height: 100px;
+  background-color: #ffcd33;
+  padding: 30px 15px 0px;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__btn:nth-child(2) {
+  font-size: 30px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+}
+
+.buttoninside {
+  position: relative;
+  left: -60px;
+  top: -13px;
+  color: rgb(230, 230, 230);
+  font-size: 25px;
+}
+
+.search-form__input {
+  margin: 0px 15px;
+  height: 50px;
+  width: 100%;
+  font-size: 15px;
+  border: 1px solid white;
+  border-radius: 30px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.158);
+  position: relative;
+  top: -25px;
+}
+
+.search-form input::placeholder {
+  padding-left: 30px;
+  color: rgb(197, 197, 197);
+}
+
+.Bookoftheday {
+  font-size: 25px;
+  margin: 0px 20px;
+}
+
+.panther {
+  margin: 20px;
+  width: 130px;
+  height: 170px;
+  border-radius: 10px;
+}
+
+.panther-src {
+  margin: 20px;
+  height: 170px;
+}
+
+.bookname {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.bookwriter {
+  font-size: 15px;
+  color: darkgray;
+  margin-bottom: 10px;
+}
+.star1 {
+  color: #ffcd33;
+}
+
+.star2 {
+  color: darkgrey;
+}
+
+.Bookoftheday-box {
+  display: flex;
+}
+
+.Bookoftheday-box__2 {
+  margin: 10px 0px;
+  display: flex;
+}
+
+.Bookoftheday-box__3 {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.graybox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(235, 235, 235);
+  border-radius: 5px;
+}
+
+.bookmark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: gold;
+}
+
+.booknow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+.adventures {
+  width: 90px;
+  height: 130px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.adventures-box {
+  margin: 20px;
+  display: flex;
+}
+
+.star3 {
+  color: #ffcd33;
+  font-size: 10px;
+  margin-right: 5px;
+}
+
+.star4 {
+  color: darkgrey;
+  font-size: 10px;
+}
+
+.adventures-box__box {
+  margin-right: 50px;
+}
+
+.starbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
