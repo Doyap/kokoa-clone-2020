@@ -1,0 +1,52 @@
+body {
+  height: 100vh;
+  background-color: rgb(223, 223, 223);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+h1 {
+  text-align: center;
+}
+.margin {
+  margin: 10px;
+}
+div {
+  display: flex;
+  justify-content: center;
+}
+div > div {
+  width: 200px;
+  height: 350px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div > div > div {
+  width: 190px;
+  height: 340px;
+  position: relative;
+}
+div > div > div > div {
+  width: 190px;
+  height: 100px;
+  background-color: white;
+  position: absolute;
+  top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.tomato {
+  background-color: tomato;
+}
+.teal {
+  background-color: teal;
+}
+.burlywood {
+  background-color: burlywood;
+}
+.thistle {
+  background-color: thistle;
+}

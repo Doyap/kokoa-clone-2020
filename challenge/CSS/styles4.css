@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+  border: 5px solid turquoise;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.playlist {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playlist__item {
+  margin: 50px 0px;
+  width: 33%;
+}
+
+.playlist__item:nth-child(2) {
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.randomlove {
+  width: 100%;
+  margin-bottom: 45px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.randomlove__yellow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 135px;
+  height: 135px;
+  background-color: gold;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.randomlove_song {
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.randomlove_artist {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.button-line {
+  margin-bottom: 45px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button-line__playbutton {
+  width: 180px;
+  height: 70px;
+  border: 3px solid black;
+  border-bottom: 7px solid black;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-line__playbutton i {
+  margin-right: 10px;
+}
+
+.button-line__heartbutton {
+  width: 70px;
+  height: 70px;
+  border: 3px solid black;
+  border-bottom: 7px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-line__plusbutton {
+  width: 70px;
+  height: 70px;
+  border: 3px solid black;
+  border-bottom: 7px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.list__item {
+  display: flex;
+  margin: 20px 0px;
+  align-items: center;
+}
+
+.list__item:first-child .list__item__bg {
+  background-color: tomato;
+}
+
+.list__item:nth-child(2) .list__item__bg {
+  background-color: hotpink;
+}
+
+.list__item:nth-child(3) .list__item__bg {
+  background-color: blue;
+}
+
+.list__item:last-child .list__item__bg {
+  background-color: turquoise;
+}
+
+.list__item__song {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.list__item__artist {
+  font-size: 15px;
+}
