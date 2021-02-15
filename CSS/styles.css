@@ -13,9 +13,11 @@
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body {
   color: #2e363e;
+  background-color: rgb(255, 202, 230);
   font-family: "Open Sans", sans-serif;
 }
 
